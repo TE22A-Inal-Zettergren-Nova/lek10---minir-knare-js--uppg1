@@ -3,17 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Miniräknare</title>
     <link rel="stylesheet" href="style.css">
-    <script src="./script.js"></script>
+    <script defer src="./script.js"></script>
 </head>
 <body>
-    <input type ="text" id="tal1"></input>
+    <input type ="number" id="tal1"></input>
     <button onclick="plus()">+</button>
-    <button onclick="plus()">-</button>
-    <button onclick="plus()">x</button>
-    <button onclick="plus()">/</button>
-    <input type ="text" id="tal2"> =</input>
-    <input type ="text" id="tal3"></input>
+    <button onclick="minus()">-</button>
+    <button onclick="multiply()">x</button>
+    <button onclick="divide()">/</button>
+    <input type ="number" id="tal2"> =</input>
+    <input class="display-box" type ="text" id="result" disabled></input>
 </body>
 </html>
