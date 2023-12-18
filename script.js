@@ -8,12 +8,19 @@ function lös(){
 }
 
 function plus(){
-    console.log("plus:"+tal1x.value);
-
     let tal1_värde = parseInt( tal1x.value);
     let tal2_värde = parseInt( tal2x.value);
 
     let result = tal1_värde+tal2_värde;
+    document.getElementById("result").value = result;
+
+}
+
+function minus(){
+    let tal1_värde = parseInt( tal1x.value);
+    let tal2_värde = parseInt( tal2x.value);
+
+    let result = tal1_värde-tal2_värde;
     document.getElementById("result").value = result;
 
 }
